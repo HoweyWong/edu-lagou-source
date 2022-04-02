@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff91aeb4-eba8-4a58-bc7f-b62e248b6da3" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/edu-common-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-ad-boot-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-ad-boot-master/edu-ad-api/target/" />
+    <ignored path="$PROJECT_DIR$/edu-ad-boot-master/edu-ad-impl/target/" />
+    <ignored path="$PROJECT_DIR$/edu-bom-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-eureka-boot-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-config-boot-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-front-boot-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-boss-boot-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-course-boot-master/edu-course-impl/target/" />
+    <ignored path="$PROJECT_DIR$/edu-course-boot-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-course-boot-master/edu-course-api/target/" />
+    <ignored path="$PROJECT_DIR$/edu-order-boot-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-authority-boot-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-message-boot-master/edu-message-api/target/" />
+    <ignored path="$PROJECT_DIR$/edu-pay-boot-master/edu-pay-impl/target/" />
+    <ignored path="$PROJECT_DIR$/edu-user-boot-master/edu-user-api/target/" />
+    <ignored path="$PROJECT_DIR$/edu-pay-boot-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-gateway-boot-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-message-boot-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-comment-boot-master/edu-comment-impl/target/" />
+    <ignored path="$PROJECT_DIR$/edu-pay-boot-master/edu-pay-api/target/" />
+    <ignored path="$PROJECT_DIR$/edu-order-boot-master/edu-order-api/target/" />
+    <ignored path="$PROJECT_DIR$/edu-comment-boot-master/edu-comment-api/target/" />
+    <ignored path="$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/target/" />
+    <ignored path="$PROJECT_DIR$/edu-order-boot-master/edu-order-impl/target/" />
+    <ignored path="$PROJECT_DIR$/edu-authority-boot-master/authentication-client/target/" />
+    <ignored path="$PROJECT_DIR$/edu-user-boot-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-oauth-boot-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-user-boot-master/edu-user-impl/target/" />
+    <ignored path="$PROJECT_DIR$/edu-comment-boot-master/target/" />
+    <ignored path="$PROJECT_DIR$/edu-authority-boot-master/authentication-server/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-611636347">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.108" value="1" />
+          <entry key="project.open.time.113" value="1" />
+          <entry key="project.open.time.133" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Dockerfile" value="1" />
+          <entry key="class" value="31" />
+          <entry key="conf" value="1" />
+          <entry key="html" value="1" />
+          <entry key="java" value="200" />
+          <entry key="json" value="1" />
+          <entry key="log" value="1" />
+          <entry key="properties" value="29" />
+          <entry key="xml" value="43" />
+          <entry key="yml" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="31" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="200" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="29" />
+          <entry key="XML" value="43" />
+          <entry key="YAML" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="conf" value="10" />
+          <entry key="java" value="2445" />
+          <entry key="properties" value="11" />
+          <entry key="xml" value="21" />
+          <entry key="yml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2445" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Properties" value="11" />
+          <entry key="XML" value="21" />
+          <entry key="YAML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3294">
+              <caret line="183" column="58" selection-start-line="183" selection-start-column="58" selection-end-line="183" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/config/WebSocketServerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/server/Bootstrap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/server/PushServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="148" column="39" lean-forward="true" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
+              <folding>
+                <element signature="class#2082:4244" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/mq/listener/LessonStatusReleaseListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/mq/listener/LessonReleaseSendMessageListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="828">
+              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/service/impl/MessageServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1134">
+              <caret line="98" column="36" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>eureka.host</find>
+      <find>edu-bom</find>
+      <find>UserContextHolder</find>
+      <find>profile=dev</find>
+      <find>113.31.119.154</find>
+      <find>redis</find>
+      <find>/saveOrder</find>
+      <find>秒杀</find>
+      <find>RedisTemplate</find>
+      <find>setKeySerializer</find>
+      <find>/login</find>
+      <find>login</find>
+      <find>sendcode</find>
+      <find>checkCode</find>
+      <find>getInfo</find>
+      <find>token</find>
+      <find>AccessGatewayFilter</find>
+      <find>close`</find>
+      <find>refresh_token</find>
+      <find>/oauth/token</find>
+      <find>socketIOClient</find>
+      <find>redis://</find>
+      <find>updatePassword</find>
+      <find>getQueryCourses</find>
+      <find>getUserPages</find>
+      <find>ResourceService</find>
+      <find>AuthenticationService</find>
+      <find>url未在资源池中找到，拒绝访问</find>
+      <find>xxl.job</find>
+      <find>saveMessage</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\03Files\dev\edu-lagou-source\edu-order-boot-master</dir>
+      <dir>D:\03Files\dev\edu-lagou-source</dir>
+    </dirStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../07Java进阶/01学习笔记/spring/Spring源码/spring-framework-5.1.x" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/edu-common-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-eureka-boot-master/src/main/java/com/lagou/edu/EurekaServer.java" />
+        <option value="$PROJECT_DIR$/edu-ad-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-bom-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-eureka-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-course-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-order-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-user-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-course-boot-master/edu-course-impl/src/main/java/com/lagou/edu/course/service/impl/CourseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/edu-course-boot-master/edu-course-impl/src/main/java/com/lagou/edu/course/remote/CourseService.java" />
+        <option value="$PROJECT_DIR$/edu-config-boot-master/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/edu-config-boot-master/src/main/properties/develop.properties" />
+        <option value="$PROJECT_DIR$/edu-ad-boot-master/edu-ad-impl/src/main/java/com/lagou/edu/ad/remote/AdRemoteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/edu-user-boot-master/edu-user-impl/src/main/java/com/lagou/edu/user/remote/UserRemoteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/edu-boss-boot-master/src/main/java/com/lagou/edu/boss/rest/RoleController.java" />
+        <option value="$PROJECT_DIR$/edu-eureka-boot-master/src/main/properties/pro-1.properties" />
+        <option value="$PROJECT_DIR$/edu-course-boot-master/edu-course-impl/src/main/java/com/lagou/edu/course/LagouEduCourseApplication.java" />
+        <option value="$PROJECT_DIR$/edu-order-boot-master/edu-order-impl/src/main/resources/registry.conf" />
+        <option value="$PROJECT_DIR$/edu-order-boot-master/edu-order-impl/src/main/java/com/lagou/edu/order/service/impl/UserCourseOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/edu-boss-boot-master/src/main/java/com/lagou/edu/boss/rest/CourseController.java" />
+        <option value="$PROJECT_DIR$/edu-front-boot-master/src/main/java/com/lagou/edu/front/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/server/PushServer.java" />
+        <option value="$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/mq/listener/LessonReleaseSendMessageListener.java" />
+        <option value="$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/mq/listener/LessonStatusReleaseListener.java" />
+        <option value="$PROJECT_DIR$/edu-user-boot-master/edu-user-impl/src/test/java/com/lagou/edu/user/generator/EncoderTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/04DevTools/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\04DevTools\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="edu-course-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="edu-course-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Manifest</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="edu-lagou-source" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edu-lagou-source" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="ExpandSpringBootSpringBootSettingsPanel" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1648865264656" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rpcframework" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Compound.edu-lagou">
+    <configuration name="EncoderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lagou.edu.user.generator.EncoderTest" />
+      <module name="edu-user-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.edu.user.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu-lagou-base" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <toRun type="SpringBootApplicationConfigurationType" name="EurekaServer" />
+      <toRun type="SpringBootApplicationConfigurationType" name="LagouEduConfigServerApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="LagouGatewayApplication" />
+      <method v="2" />
+    </configuration>
+    <configuration name="edu-lagou" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <toRun type="SpringBootApplicationConfigurationType" name="LagouEduAdApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="LagouEduAuthorityApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="LagouEduBossApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="LagouEduCommentApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="LagouEduCourseApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="LagouEduFrontApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="LagouEduMessageApplication" />
+      <toRun type="SpringBootApplicationConfigurationType" name="LagouEduOrderApplication" />
+      <method v="2" />
+    </configuration>
+    <configuration name="OrderServiceTest.queryOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="edu-order-impl" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.edu.order.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lagou.edu.order.service" />
+      <option name="MAIN_CLASS_NAME" value="com.lagou.edu.order.service.OrderServiceTest" />
+      <option name="METHOD_NAME" value="queryOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Xms703m -Xmx703m" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lagou-edu-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.EurekaServer" />
+      <option name="VM_PARAMETERS" value="-XX:+UseSerialGC -XX:NativeMemoryTracking=summary -Xms64M -Xmx64M -Xss256k -XX:MaxMetaspaceSize=128M -XX:MetaspaceSize=64M" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouEduAdApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-ad-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.ad.LagouEduAdApplication" />
+      <option name="VM_PARAMETERS" value="-XX:+UseSerialGC -XX:NativeMemoryTracking=summary -Xms64M -Xmx64M -Xss256k -XX:MaxMetaspaceSize=128M -XX:MetaspaceSize=64M" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouEduAuthorityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="authentication-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.authority.LagouEduAuthorityApplication" />
+      <option name="VM_PARAMETERS" value="-XX:+UseSerialGC -XX:NativeMemoryTracking=summary -Xms64M -Xmx64M -Xss256k -XX:MaxMetaspaceSize=128M -XX:MetaspaceSize=64M" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouEduBossApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lagou-edu-boss" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.boss.LagouEduBossApplication" />
+      <option name="VM_PARAMETERS" value="-XX:+UseSerialGC -XX:NativeMemoryTracking=summary -Xms64M -Xmx64M -Xss256k -XX:MaxMetaspaceSize=128M -XX:MetaspaceSize=64M" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouEduCommentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-comment-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.comment.LagouEduCommentApplication" />
+      <option name="VM_PARAMETERS" value="-XX:+UseSerialGC -XX:NativeMemoryTracking=summary -Xms64M -Xmx64M -Xss256k -XX:MaxMetaspaceSize=128M -XX:MetaspaceSize=64M" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouEduConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lagou-edu-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.config.server.LagouEduConfigServerApplication" />
+      <option name="VM_PARAMETERS" value="-XX:+UseSerialGC -XX:NativeMemoryTracking=summary -Xms64M -Xmx64M -Xss256k -XX:MaxMetaspaceSize=128M -XX:MetaspaceSize=64M" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouEduCourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-course-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.course.LagouEduCourseApplication" />
+      <option name="VM_PARAMETERS" value="-XX:+UseSerialGC -XX:NativeMemoryTracking=summary -Xms64M -Xmx64M -Xss256k -XX:MaxMetaspaceSize=128M -XX:MetaspaceSize=64M" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouEduFrontApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lagou-edu-front" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.front.LagouEduFrontApplication" />
+      <option name="VM_PARAMETERS" value="-XX:+UseSerialGC -XX:NativeMemoryTracking=summary -Xms128M -Xmx128M -Xss256k -XX:MaxMetaspaceSize=128M -XX:MetaspaceSize=64M" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouEduMessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-message-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.message.LagouEduMessageApplication" />
+      <option name="VM_PARAMETERS" value="-XX:+UseSerialGC -XX:NativeMemoryTracking=summary -Xms64M -Xmx64M -Xss256k -XX:MaxMetaspaceSize=128M -XX:MetaspaceSize=64M" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouEduOauth2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lagou-edu-oauth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.oauth.LagouEduOauth2Application" />
+      <option name="VM_PARAMETERS" value="-XX:+UseSerialGC -XX:NativeMemoryTracking=summary -Xms64M -Xmx64M -Xss256k -XX:MaxMetaspaceSize=128M -XX:MetaspaceSize=64M" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouEduOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-order-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.order.LagouEduOrderApplication" />
+      <option name="VM_PARAMETERS" value="-XX:+UseSerialGC -XX:NativeMemoryTracking=summary -Xms64M -Xmx64M -Xss256k -XX:MaxMetaspaceSize=128M -XX:MetaspaceSize=64M" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouEduPayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-pay-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.pay.LagouEduPayApplication" />
+      <option name="VM_PARAMETERS" value="-XX:+UseSerialGC -XX:NativeMemoryTracking=summary -Xms64M -Xmx64M -Xss256k -XX:MaxMetaspaceSize=128M -XX:MetaspaceSize=64M" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouEduUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="edu-user-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.user.LagouEduUserApplication" />
+      <option name="VM_PARAMETERS" value="-XX:+UseSerialGC -XX:NativeMemoryTracking=summary -Xms64M -Xmx64M -Xss256k -XX:MaxMetaspaceSize=128M -XX:MetaspaceSize=64M" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LagouGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lagou-edu-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.edu.gateway.LagouGatewayApplication" />
+      <option name="VM_PARAMETERS" value="-XX:+UseSerialGC -XX:NativeMemoryTracking=summary -Xms64M -Xmx64M -Xss256k -XX:MaxMetaspaceSize=128M -XX:MetaspaceSize=64M" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Compound.edu-lagou" />
+      <item itemvalue="Compound.edu-lagou-base" />
+      <item itemvalue="Spring Boot.EurekaServer" />
+      <item itemvalue="Spring Boot.LagouEduConfigServerApplication" />
+      <item itemvalue="Spring Boot.LagouEduAdApplication" />
+      <item itemvalue="Spring Boot.LagouEduBossApplication" />
+      <item itemvalue="Spring Boot.LagouEduFrontApplication" />
+      <item itemvalue="Spring Boot.LagouEduAuthorityApplication" />
+      <item itemvalue="Spring Boot.LagouGatewayApplication" />
+      <item itemvalue="Spring Boot.LagouEduOauth2Application" />
+      <item itemvalue="Spring Boot.LagouEduUserApplication" />
+      <item itemvalue="Spring Boot.LagouEduOrderApplication" />
+      <item itemvalue="Spring Boot.LagouEduPayApplication" />
+      <item itemvalue="Spring Boot.LagouEduCommentApplication" />
+      <item itemvalue="Spring Boot.LagouEduMessageApplication" />
+      <item itemvalue="Spring Boot.LagouEduCourseApplication" />
+      <item itemvalue="JUnit.OrderServiceTest.queryOrder" />
+      <item itemvalue="Application.EncoderTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EncoderTest" />
+        <item itemvalue="JUnit.OrderServiceTest.queryOrder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff91aeb4-eba8-4a58-bc7f-b62e248b6da3" name="Default Changelist" comment="" />
+      <created>1642948560442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642948560442</updated>
+      <workItem from="1642948562062" duration="1605000" />
+      <workItem from="1643103349095" duration="594000" />
+      <workItem from="1643182360013" duration="5429000" />
+      <workItem from="1643245596191" duration="10017000" />
+      <workItem from="1643532898891" duration="696000" />
+      <workItem from="1643919977648" duration="2444000" />
+      <workItem from="1644158856101" duration="17287000" />
+      <workItem from="1644455939708" duration="2941000" />
+      <workItem from="1644807366980" duration="6473000" />
+      <workItem from="1645151533262" duration="2139000" />
+      <workItem from="1647423736403" duration="22986000" />
+      <workItem from="1648086824060" duration="45525000" />
+      <workItem from="1648538220575" duration="594000" />
+      <workItem from="1648864765587" duration="495000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="OrderServiceTest_queryOrder - 2022.03.18 at 10h 30m 02s.xml">
+      <configuration name="OrderServiceTest.queryOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderServiceTest_queryOrder - 2022.03.18 at 10h 31m 45s.xml">
+      <configuration name="OrderServiceTest.queryOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderServiceTest_queryOrder - 2022.03.18 at 10h 32m 45s.xml">
+      <configuration name="OrderServiceTest.queryOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderServiceTest_queryOrder - 2022.03.18 at 10h 32m 56s.xml">
+      <configuration name="OrderServiceTest.queryOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderServiceTest_queryOrder - 2022.03.18 at 10h 33m 31s.xml">
+      <configuration name="OrderServiceTest.queryOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderServiceTest_queryOrder - 2022.03.18 at 10h 39m 10s.xml">
+      <configuration name="OrderServiceTest.queryOrder" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="119225000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28753352" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3297587" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="5" sideWeight="0.49932975" visible="true" weight="0.3994638" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.3994638" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.25268096" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>user.getPassword()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/../m2/repository/io/projectreactor/reactor-core/3.2.10.RELEASE/reactor-core-3.2.10.RELEASE.jar!/reactor/core/publisher/FluxConcatMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="523" selection-start-line="523" selection-end-line="523" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../m2/repository/org/springframework/cloud/spring-cloud-gateway-core/2.1.0.RELEASE/spring-cloud-gateway-core-2.1.0.RELEASE.jar!/org/springframework/cloud/gateway/handler/FilteringWebHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-gateway-boot-master/src/main/java/com/lagou/edu/gateway/filter/AccessGatewayFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="98" column="55" lean-forward="true" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-authority-boot-master/authentication-client/src/main/java/com/lagou/edu/auth/client/service/impl/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-front-boot-master/src/main/java/com/lagou/edu/front/user/service/impl/OAuthRemoteServiceFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../m2/repository/io/github/openfeign/feign-hystrix/10.1.0/feign-hystrix-10.1.0.jar!/feign/hystrix/HystrixInvocationHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-front-boot-master/src/main/java/com/lagou/edu/front/user/service/OAuthRemoteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-front-boot-master/src/main/java/com/lagou/edu/front/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-oauth-boot-master/src/main/java/com/lagou/edu/oauth/mult/MultAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/consts/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-311">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/server/UserAuthorizationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-api/src/main/java/com/lagou/edu/message/api/dto/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/properties/pro.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/properties/develop.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/server/store/StoreFacotryProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="19" column="140" lean-forward="true" selection-start-line="19" selection-start-column="140" selection-end-line="19" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-common-master/src/main/java/com/lagou/edu/common/mq/listener/AbstractMqListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/server/check/HttpCheckServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1170">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../m2/repository/org/apache/rocketmq/rocketmq-spring-boot/2.1.0/rocketmq-spring-boot-2.1.0.jar!/org/apache/rocketmq/spring/core/RocketMQListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../m2/repository/org/springframework/security/spring-security-crypto/5.1.5.RELEASE/spring-security-crypto-5.1.5.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-user-boot-master/edu-user-impl/src/test/java/com/lagou/edu/user/generator/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1278">
+          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-user-boot-master/edu-user-impl/src/test/java/com/lagou/edu/user/generator/EncoderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-front-boot-master/src/main/java/com/lagou/edu/front/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="121" column="37" lean-forward="true" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-user-boot-master/edu-user-api/src/main/java/com/lagou/edu/user/api/UserRemoteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-user-boot-master/edu-user-impl/src/main/java/com/lagou/edu/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-user-boot-master/edu-user-impl/src/main/java/com/lagou/edu/user/remote/UserRemoteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="158" column="63" lean-forward="true" selection-start-line="158" selection-start-column="63" selection-end-line="158" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-authority-boot-master/authentication-server/src/main/java/com/lagou/edu/authority/service/impl/AuthenticationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="131" column="1" lean-forward="true" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-course-boot-master/edu-course-impl/src/main/java/com/lagou/edu/course/job/CourseAutoOnlineJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-authority-boot-master/authentication-server/src/main/java/com/lagou/edu/authority/service/impl/ResourceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-course-boot-master/edu-course-impl/src/main/java/com/lagou/edu/course/service/ICourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-course-boot-master/edu-course-impl/src/main/java/com/lagou/edu/course/service/impl/MediaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-course-boot-master/edu-course-impl/src/main/java/com/lagou/edu/course/service/impl/LessonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-course-boot-master/edu-course-impl/src/main/java/com/lagou/edu/course/service/impl/CourseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-course-boot-master/edu-course-impl/src/main/java/com/lagou/edu/course/service/impl/CoursePlayHistoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-732">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-course-boot-master/edu-course-impl/src/main/java/com/lagou/edu/course/service/impl/ActivityCourseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pay-boot-master/edu-pay-impl/src/main/java/com/lagou/edu/pay/trade/request/aliPay/AliPayRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pay-boot-master/edu-pay-impl/src/main/java/com/lagou/edu/pay/trade/impl/ThirdPayServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="37" column="58" lean-forward="true" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pay-boot-master/edu-pay-impl/src/main/java/com/lagou/edu/pay/service/impl/PayOrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="126" column="39" lean-forward="true" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-pay-boot-master/edu-pay-impl/src/main/java/com/lagou/edu/pay/service/impl/PayOrderRecordServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../m2/repository/com/corundumstudio/socketio/netty-socketio/1.7.17/netty-socketio-1.7.17.jar!/com/corundumstudio/socketio/transport/NamespaceClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/advice/MessageServerRemoteServiceAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1272">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/util/PushUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-846">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/util/ServerConfigUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3294">
+          <caret line="183" column="58" selection-start-line="183" selection-start-column="58" selection-end-line="183" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/config/WebSocketServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/server/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/mq/listener/LessonStatusReleaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/mq/listener/LessonReleaseSendMessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/service/impl/MessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="98" column="36" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/src/main/java/com/lagou/edu/message/server/PushServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="148" column="39" lean-forward="true" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
+          <folding>
+            <element signature="class#2082:4244" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

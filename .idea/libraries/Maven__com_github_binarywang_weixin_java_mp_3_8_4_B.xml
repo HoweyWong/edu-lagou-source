@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.binarywang:weixin-java-mp:3.8.4.B">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../m2/repository/com/github/binarywang/weixin-java-mp/3.8.4.B/weixin-java-mp-3.8.4.B.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../m2/repository/com/github/binarywang/weixin-java-mp/3.8.4.B/weixin-java-mp-3.8.4.B-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../m2/repository/com/github/binarywang/weixin-java-mp/3.8.4.B/weixin-java-mp-3.8.4.B-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

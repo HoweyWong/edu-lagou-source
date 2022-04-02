@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/edu-common-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-ad-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-bom-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-eureka-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-config-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-boss-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-front-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-course-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-authority-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-comment-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-gateway-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-message-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-oauth-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-order-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-pay-boot-master/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-user-boot-master/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="Howey" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

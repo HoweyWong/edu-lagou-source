@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/edu-ad-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-ad-boot-master/edu-ad-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-ad-boot-master/edu-ad-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-authority-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-authority-boot-master/authentication-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-authority-boot-master/authentication-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-bom-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-boss-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-comment-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-comment-boot-master/edu-comment-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-comment-boot-master/edu-comment-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-common-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-config-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-course-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-course-boot-master/edu-course-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-course-boot-master/edu-course-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-eureka-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-front-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-gateway-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-message-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-oauth-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-order-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-order-boot-master/edu-order-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-order-boot-master/edu-order-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-pay-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-pay-boot-master/edu-pay-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-pay-boot-master/edu-pay-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-user-boot-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-user-boot-master/edu-user-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-user-boot-master/edu-user-impl" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

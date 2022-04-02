@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="authentication-client" />
+        <module name="authentication-server" />
+        <module name="edu-ad-api" />
+        <module name="edu-ad-impl" />
+        <module name="edu-comment-api" />
+        <module name="edu-comment-impl" />
+        <module name="edu-course-api" />
+        <module name="edu-course-impl" />
+        <module name="edu-message-api" />
+        <module name="edu-message-impl" />
+        <module name="edu-order-api" />
+        <module name="edu-order-impl" />
+        <module name="edu-pay-api" />
+        <module name="edu-pay-impl" />
+        <module name="edu-user-api" />
+        <module name="edu-user-impl" />
+        <module name="lagou-edu-boss" />
+        <module name="lagou-edu-common" />
+        <module name="lagou-edu-config" />
+        <module name="lagou-edu-eureka" />
+        <module name="lagou-edu-front" />
+        <module name="lagou-edu-oauth" />
+      </profile>
+      <profile name="Annotation profile for lagou-edu-gateway" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar" />
+        </processorPath>
+        <module name="lagou-edu-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="authentication-client" target="1.8" />
+      <module name="authentication-server" target="1.8" />
+      <module name="edu-ad-api" target="1.8" />
+      <module name="edu-ad-boot" target="1.8" />
+      <module name="edu-ad-impl" target="1.8" />
+      <module name="edu-bom" target="1.8" />
+      <module name="edu-comment-api" target="1.8" />
+      <module name="edu-comment-impl" target="1.8" />
+      <module name="edu-course-api" target="1.8" />
+      <module name="edu-course-impl" target="1.8" />
+      <module name="edu-message-api" target="8" />
+      <module name="edu-message-impl" target="1.8" />
+      <module name="edu-order-api" target="8" />
+      <module name="edu-order-impl" target="1.8" />
+      <module name="edu-pay-api" target="1.8" />
+      <module name="edu-pay-impl" target="1.8" />
+      <module name="edu-user-api" target="1.8" />
+      <module name="edu-user-impl" target="1.8" />
+      <module name="lagou-edu-authority" target="1.8" />
+      <module name="lagou-edu-boss" target="1.8" />
+      <module name="lagou-edu-comment" target="1.8" />
+      <module name="lagou-edu-common" target="8" />
+      <module name="lagou-edu-config" target="1.8" />
+      <module name="lagou-edu-course" target="1.8" />
+      <module name="lagou-edu-eureka" target="1.8" />
+      <module name="lagou-edu-front" target="1.8" />
+      <module name="lagou-edu-gateway" target="1.8" />
+      <module name="lagou-edu-message" target="1.8" />
+      <module name="lagou-edu-oauth" target="1.8" />
+      <module name="lagou-edu-order" target="1.8" />
+      <module name="lagou-edu-pay" target="1.8" />
+      <module name="lagou-edu-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

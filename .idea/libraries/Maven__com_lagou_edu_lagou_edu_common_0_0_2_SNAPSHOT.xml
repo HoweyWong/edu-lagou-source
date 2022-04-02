@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.lagou.edu:lagou-edu-common:0.0.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../m2/repository/com/lagou/edu/lagou-edu-common/0.0.2-SNAPSHOT/lagou-edu-common-0.0.2-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../m2/repository/com/lagou/edu/lagou-edu-common/0.0.2-SNAPSHOT/lagou-edu-common-0.0.2-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../m2/repository/com/lagou/edu/lagou-edu-common/0.0.2-SNAPSHOT/lagou-edu-common-0.0.2-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

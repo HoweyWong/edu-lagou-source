@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/edu-authority-boot-master/authentication-client/authentication-client.iml" filepath="$PROJECT_DIR$/edu-authority-boot-master/authentication-client/authentication-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-authority-boot-master/authentication-server/authentication-server.iml" filepath="$PROJECT_DIR$/edu-authority-boot-master/authentication-server/authentication-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-ad-boot-master/edu-ad-api/edu-ad-api.iml" filepath="$PROJECT_DIR$/edu-ad-boot-master/edu-ad-api/edu-ad-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-ad-boot-master/edu-ad-boot.iml" filepath="$PROJECT_DIR$/edu-ad-boot-master/edu-ad-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-ad-boot-master/edu-ad-impl/edu-ad-impl.iml" filepath="$PROJECT_DIR$/edu-ad-boot-master/edu-ad-impl/edu-ad-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-bom-master/edu-bom.iml" filepath="$PROJECT_DIR$/edu-bom-master/edu-bom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-comment-boot-master/edu-comment-api/edu-comment-api.iml" filepath="$PROJECT_DIR$/edu-comment-boot-master/edu-comment-api/edu-comment-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-comment-boot-master/edu-comment-impl/edu-comment-impl.iml" filepath="$PROJECT_DIR$/edu-comment-boot-master/edu-comment-impl/edu-comment-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-course-boot-master/edu-course-api/edu-course-api.iml" filepath="$PROJECT_DIR$/edu-course-boot-master/edu-course-api/edu-course-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-course-boot-master/edu-course-impl/edu-course-impl.iml" filepath="$PROJECT_DIR$/edu-course-boot-master/edu-course-impl/edu-course-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/edu-lagou-source.iml" filepath="$PROJECT_DIR$/.idea/edu-lagou-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-api/edu-message-api.iml" filepath="$PROJECT_DIR$/edu-message-boot-master/edu-message-api/edu-message-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/edu-message-impl.iml" filepath="$PROJECT_DIR$/edu-message-boot-master/edu-message-impl/edu-message-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-order-boot-master/edu-order-api/edu-order-api.iml" filepath="$PROJECT_DIR$/edu-order-boot-master/edu-order-api/edu-order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-order-boot-master/edu-order-impl/edu-order-impl.iml" filepath="$PROJECT_DIR$/edu-order-boot-master/edu-order-impl/edu-order-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-pay-boot-master/edu-pay-api/edu-pay-api.iml" filepath="$PROJECT_DIR$/edu-pay-boot-master/edu-pay-api/edu-pay-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-pay-boot-master/edu-pay-impl/edu-pay-impl.iml" filepath="$PROJECT_DIR$/edu-pay-boot-master/edu-pay-impl/edu-pay-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-user-boot-master/edu-user-api/edu-user-api.iml" filepath="$PROJECT_DIR$/edu-user-boot-master/edu-user-api/edu-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-user-boot-master/edu-user-impl/edu-user-impl.iml" filepath="$PROJECT_DIR$/edu-user-boot-master/edu-user-impl/edu-user-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-authority-boot-master/lagou-edu-authority.iml" filepath="$PROJECT_DIR$/edu-authority-boot-master/lagou-edu-authority.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-boss-boot-master/lagou-edu-boss.iml" filepath="$PROJECT_DIR$/edu-boss-boot-master/lagou-edu-boss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-comment-boot-master/lagou-edu-comment.iml" filepath="$PROJECT_DIR$/edu-comment-boot-master/lagou-edu-comment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-common-master/lagou-edu-common.iml" filepath="$PROJECT_DIR$/edu-common-master/lagou-edu-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-config-boot-master/lagou-edu-config.iml" filepath="$PROJECT_DIR$/edu-config-boot-master/lagou-edu-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-course-boot-master/lagou-edu-course.iml" filepath="$PROJECT_DIR$/edu-course-boot-master/lagou-edu-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-eureka-boot-master/lagou-edu-eureka.iml" filepath="$PROJECT_DIR$/edu-eureka-boot-master/lagou-edu-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-front-boot-master/lagou-edu-front.iml" filepath="$PROJECT_DIR$/edu-front-boot-master/lagou-edu-front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-gateway-boot-master/lagou-edu-gateway.iml" filepath="$PROJECT_DIR$/edu-gateway-boot-master/lagou-edu-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-message-boot-master/lagou-edu-message.iml" filepath="$PROJECT_DIR$/edu-message-boot-master/lagou-edu-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-oauth-boot-master/lagou-edu-oauth.iml" filepath="$PROJECT_DIR$/edu-oauth-boot-master/lagou-edu-oauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-order-boot-master/lagou-edu-order.iml" filepath="$PROJECT_DIR$/edu-order-boot-master/lagou-edu-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-pay-boot-master/lagou-edu-pay.iml" filepath="$PROJECT_DIR$/edu-pay-boot-master/lagou-edu-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-user-boot-master/lagou-edu-user.iml" filepath="$PROJECT_DIR$/edu-user-boot-master/lagou-edu-user.iml" />
+    </modules>
+  </component>
+</project>
