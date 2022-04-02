@@ -1,0 +1,23 @@
+#eureka server服务端口
+server:
+  port: @eureka.port@
+spring:
+  application:
+    name: edu-eureka-boot # 应用名称，应用名称会在Eureka中作为服务名称
+eureka:
+  instance:
+    hostname: @eureka.host@  # 当前eureka实例的主机名
+  client:
+    service-url: # 配置客户端所交互的Eureka Server的地址
+      defaultZone: http://@eureka.host@:@eureka.port@/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  server:
+    enableSelfPreservation: false
+    #eureka server刷新readCacheMap的时间 默认30s
+    response-cache-update-interval-ms: 3000
+    #启用主动失效，并且每次主动失效检测间隔为3s 默认60s
+    eviction-interval-timer-in-ms: 3000
+    use-read-only-response-cache: false
+  dashboard:
+    enabled: true

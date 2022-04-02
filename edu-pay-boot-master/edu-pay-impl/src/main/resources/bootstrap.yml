@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: edu-pay-boot
+  cloud:
+    alibaba:
+        seata:
+            tx-service-group: my_tx_group
+    config:
+      discovery:
+        enabled: true
+        service-id: edu-config-boot
+      name: ${spring.application.name}
+      profile: @profile@
+  main:
+    allow-bean-definition-overriding: true
+
+ribbon:
+###指的是建立连接所用的时间，适用于网络状况正常的情况下，两端连接所用的时间。
+ ReadTimeout: 10000
+###指的是建立连接后从服务器读取到可用资源所用的时间。 
+ ConnectTimeout: 10000
+#注册到Eureka服务中心
+eureka:
+  client:
+    service-url:
+      # 注册到集群，就把多个Eurekaserver地址使用逗号连接起来即可；注册到单实例（非集群模式），那就写一个就ok
+      defaultZone: @eureka.host@
+    #eureka client刷新本地缓存时间 默认30s
+    registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true  #服务实例中显示ip，而不是显示主机名（兼容老的eureka版本）
+    # 实例名称
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+    #服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除 默认90s
+    lease-expiration-duration-in-seconds: 9
+    #服务刷新时间配置，每隔这个时间会主动心跳一次 默认30s
+    lease-renewal-interval-in-seconds: 3

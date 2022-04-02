@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: edu-oauth-boot
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: edu-config-boot
+      name: ${spring.application.name}
+      profile: @profile@
+  main:
+    allow-bean-definition-overriding: true
+  # 当spring MVC找不到对应的controller来处理请求时，就不会使用默认的方式处理了，直接抛出异常，就会被ExceptionAdviceHandler 捕获到；到这里自定义异常处理结束
+  mvc:
+    throw-exception-if-no-handler-found: true
+
+#注册到Eureka服务中心
+eureka:
+  client:
+    service-url:
+      # 注册到集群，就把多个Eurekaserver地址使用逗号连接起来即可；注册到单实例（非集群模式），那就写一个就ok
+      defaultZone: @eureka.host@
+    #eureka client刷新本地缓存时间 默认30s
+    registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true  #服务实例中显示ip，而不是显示主机名（兼容老的eureka版本）
+    # 实例名称
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+    #服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除 默认90s
+    lease-expiration-duration-in-seconds: 20
+    #服务刷新时间配置，每隔这个时间会主动心跳一次 默认30s
+    lease-renewal-interval-in-seconds: 3

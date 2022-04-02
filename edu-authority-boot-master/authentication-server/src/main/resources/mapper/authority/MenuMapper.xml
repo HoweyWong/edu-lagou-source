@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lagou.edu.authority.mapper.MenuMapper">
+
+    <select id="queryByRoleIds" resultType="com.lagou.edu.authority.entity.po.Menu">
+        select distinct
+            m.id,
+            m.parent_id,
+            m.href,
+            m.icon,
+            m.name,
+            m.description,
+            m.order_num,
+            m.shown,
+            m.level,
+            m.created_time,
+            m.updated_time,
+            m.created_by,
+            m.updated_by
+        from menu m left join role_menu_relation r on r.menu_id=m.id 
+        where r.role_id in
+        <foreach collection="roleIds" item="roleId" open="(" close=")" separator=",">
+            #{roleId}
+        </foreach>
+        and m.shown = 1
+    </select>
+
+    <select id="queryByRoleIdIgnoreIsShown" resultType="com.lagou.edu.authority.entity.po.Menu">
+        select distinct
+        m.id,
+        m.parent_id,
+        m.href,
+        m.icon,
+        m.name,
+        m.description,
+        m.order_num,
+        m.shown,
+        m.level,
+        m.created_time,
+        m.updated_time,
+        m.created_by,
+        m.updated_by
+        from menu m left join role_menu_relation r on r.menu_id=m.id
+        where r.role_id = #{roleId}
+    </select>
+</mapper>

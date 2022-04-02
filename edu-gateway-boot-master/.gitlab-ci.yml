@@ -1,0 +1,38 @@
+variables:
+    moduleName: "edu-gateway-boot"
+    jarPackage: "${moduleName}.jar"
+    targetJarPackage: "target/${moduleName}.jar"
+    targetDir: "/apps/${moduleName}"
+    remoteUser: "root"
+    stopScript: "stop.sh"
+    startScript: "start.sh"
+    mvnPath1: "/apps/apache-maven-3.6.3/repository/com/lagou/edu /root/.m2/repository/com/lagou/edu"
+
+before_script:
+  - pwd
+
+after_script:
+  - pwd
+  - ls `pwd`
+  - id
+  - sudo rm -rf `pwd`
+
+deploy:
+  stage: deploy
+  script:
+    - sudo rm -rf ${mvnPath1}
+    - sudo mvn clean install -Ppro
+    - echo ${targetJarPackage} ${jarPackage}  
+    - targetFile=`find ./ -name "${jarPackage}"|grep ${targetJarPackage}` 
+    - echo ${targetFile}  ${jarPackage}
+    - echo "host:${host}"
+    - ssh -oStrictHostKeyChecking=no ${remoteUser}@${host} "mkdir -p ${targetDir}"
+    - scp -rp -oStrictHostKeyChecking=no  ${stopScript} ${startScript} ${remoteUser}@${host}:${targetDir}
+    - ssh -oStrictHostKeyChecking=no ${remoteUser}@${host} "cd ${targetDir} ; sh ${stopScript} ${jarPackage}"
+    - scp -rp -oStrictHostKeyChecking=no ${targetFile} ${remoteUser}@${host}:${targetDir}
+    - ssh -oStrictHostKeyChecking=no ${remoteUser}@${host} "cd ${targetDir} ; sh ${startScript} ${jarPackage}"
+
+  only:
+    - master
+    
+  when: manual

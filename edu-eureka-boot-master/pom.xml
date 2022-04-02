@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.6.RELEASE</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>lagou-edu-eureka</artifactId>
+
+    <!-- 公共配置 -->
+    <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.compile.sourceEncoding>UTF-8</project.compile.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <!--Eureka server依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+    </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.lagou.edu.commons</groupId>
+                <artifactId>edu-bom</artifactId>
+                <version>0.0.4-SNAPSHOT</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <finalName>edu-eureka-boot</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>develop</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <filters>
+                    <filter>
+                        src/main/properties/develop.properties
+                    </filter>
+                </filters>
+            </build>
+        </profile>
+        <profile>
+            <id>pro-1</id>
+            <build>
+                <filters>
+                    <filter>
+                        src/main/properties/pro-1.properties
+                    </filter>
+                </filters>
+            </build>
+        </profile>
+        <profile>
+            <id>pro-2</id>
+            <build>
+                <filters>
+                    <filter>
+                        src/main/properties/pro-2.properties
+                    </filter>
+                </filters>
+            </build>
+        </profile>
+        <profile>
+            <id>pro-3</id>
+            <build>
+                <filters>
+                    <filter>
+                        src/main/properties/pro-3.properties
+                    </filter>
+                </filters>
+            </build>
+        </profile>
+    </profiles>
+</project>

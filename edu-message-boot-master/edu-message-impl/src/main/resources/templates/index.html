@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>websocket测试</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <style type="text/css">
+        h3,h4{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+
+<h3>WebSocket测试，客户端接收到的消息如下：</h3>
+
+<textarea id = "messageId" readonly="readonly" cols="150" rows="30" >
+
+</textarea>
+
+
+<script crossorigin="anonymous" integrity="sha384-HHKD5G6fqvxz/wBz7BFYeOPzBKELGIZv5l5HAECcXD3zdAS6n8OppmPH9ZxGXY0G" src="https://lib.baomitu.com/socket.io/2.3.0/socket.io.js"></script>
+
+<script>
+const IO = io.connect('http://113.31.104.154:8899/push', {
+    'path': '/push',
+    'force new connection': true,
+    'reconnection': true,
+    'reconnectionDelay': 2000,                  // starts with 2 secs delay, then 4, 6, 8, until 60 where it stays forever until it reconnects
+    'reconnectionDelayMax': 5000,               // 1 minute maximum delay between connections
+    'reconnectionAttempts': 10,         // to prevent dead clients, having the user to having to manually reconnect after a server restart.
+    'timeout': 10000,                           // before connect_error and connect_timeout are emitted.
+    'transports': ['websocket', 'polling'],
+    'query': {
+    	'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTAwMDI5OTY2IiwidXNlcl9uYW1lIjoiMTU4MDEzNjMxOTUiLCJzY29wZSI6WyJyZWFkIl0sIm9yZ2FuaXphdGlvbiI6IjE1ODAxMzYzMTk1IiwiZXhwIjoxNTkzNTc3MzE5LCJhdXRob3JpdGllcyI6WyJOT05FIl0sImp0aSI6IjZfdDFGNXdnS0dUTms4eFpDQlFMT21KMXQ5SSIsImNsaWVudF9pZCI6InRlc3RfY2xpZW50In0.zpFh6BoQPgkz0oXMDN5hYh3q-7Iwcpu3dWwlglUuMRs',
+        'uri': window.location.pathname
+    }
+});
+</script>
+
+
+
+</body>
+</html>

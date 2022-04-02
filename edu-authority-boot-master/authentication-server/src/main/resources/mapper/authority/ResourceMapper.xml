@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lagou.edu.authority.mapper.ResourceMapper">
+
+    <select id="queryByRoleIds" resultType="com.lagou.edu.authority.entity.po.Resource">
+        select distinct
+            r.id,
+            r.name,
+            r.url,
+            r.category_id,
+            r.description,
+            r.created_time,
+            r.updated_time,
+            r.created_by,
+            r.updated_by
+        from resource r left join role_resource_relation rrr on rrr.resource_id=r.id
+        where rrr.role_id in
+        <foreach collection="roleIds" item="roleId" open="(" close=")" separator=",">
+            #{roleId}
+        </foreach>
+    </select>
+</mapper>

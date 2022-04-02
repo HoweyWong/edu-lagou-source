@@ -1,0 +1,77 @@
+spring:
+  application:
+    name: edu-order-boot
+  aop:  #使用CGLIB来实现AOP的时候
+      proxy-target-class: true
+  cloud:
+    loadbalancer:
+            ribbon:
+                enabled: false
+    discovery:
+            register: true
+            prefer-ip-address: true
+            health-check-path: /actuator/health
+            service-name: ${spring.application.name}
+            instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}
+            health-check-interval: 5s
+    alibaba:
+        seata:
+            tx-service-group: my_tx_group
+    config:
+      discovery:
+        enabled: true
+        service-id: edu-config-boot
+      name: ${spring.application.name}
+      profile: @profile@
+  main:
+    allow-bean-definition-overriding: true
+mybatis-plus:
+    #  datasource: dataSource
+    mapper-locations: classpath:/mapper/**/*.xml
+    #实体扫描，多个package用逗号或者分号分隔
+    type-aliases-package:  com.lagou.edu.order.entity
+    #typeEnumsPackage: com.baomidou.springboot.entity.enums
+    global-config:
+        #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID", 4:"该类型为未设置主键类型", 5:"字符串全局唯一ID";
+        id-type: 2
+        #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
+        field-strategy: 1
+        #驼峰下划线转换
+        db-column-underline: true
+        #刷新mapper 调试神器
+        refresh-mapper: true
+        #数据库大写下划线转换
+        capital-mode: true
+        #逻辑删除配置（下面3个配置）
+        logic-delete-value: 0
+        logic-not-delete-value: 1
+        # SQL 解析缓存，开启后多租户 @SqlParser 注解生效
+        sql-parser-cache: true
+    configuration:
+        map-underscore-to-camel-case: true
+        cache-enabled: false
+    configuration-properties:
+        dbType: mysql #设置全局属性用于控制数据库的类型
+
+seata:
+  enabled: true
+  application-id: edu_order_boot
+  tx-service-group: my_tx_group # 事务群组（可以每个应用独立取名，也可以使用相同的名字）
+  enable-auto-data-source-proxy: true
+  use-jdk-proxy: true
+#注册到Eureka服务中心
+eureka:
+  client:
+    service-url:
+      # 注册到集群，就把多个Eurekaserver地址使用逗号连接起来即可；注册到单实例（非集群模式），那就写一个就ok
+      defaultZone: @eureka.host@
+    #eureka client刷新本地缓存时间 默认30s
+    registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true  #服务实例中显示ip，而不是显示主机名（兼容老的eureka版本）
+    # 实例名称
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+    #服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除 默认90s
+    lease-expiration-duration-in-seconds: 9
+    #服务刷新时间配置，每隔这个时间会主动心跳一次 默认30s
+    lease-renewal-interval-in-seconds: 3
